@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "maintexts",
+  "info": {
+    "singularName": "maintext",
+    "pluralName": "maintexts",
+    "displayName": "maintext",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
