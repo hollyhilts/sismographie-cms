@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "map_entry_right_texts",
+  "info": {
+    "singularName": "map-entry-right-text",
+    "pluralName": "map-entry-right-texts",
+    "displayName": "mapEntryRightText"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext",
+      "required": true
+    },
+    "cta": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    }
+  }
+}
