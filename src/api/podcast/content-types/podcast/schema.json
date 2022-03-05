@@ -4,7 +4,7 @@
   "info": {
     "singularName": "podcast",
     "pluralName": "podcasts",
-    "displayName": "podcast",
+    "displayName": "ballados",
     "description": ""
   },
   "options": {
@@ -53,14 +53,15 @@
       "required": true
     },
     "podcast_sound": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -68,14 +69,15 @@
       }
     },
     "podcast_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": true

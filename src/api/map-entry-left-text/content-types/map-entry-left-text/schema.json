@@ -4,7 +4,8 @@
   "info": {
     "singularName": "map-entry-left-text",
     "pluralName": "map-entry-left-texts",
-    "displayName": "mapEntryLeftText"
+    "displayName": "Sismographie: texte d'introduction projet",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false

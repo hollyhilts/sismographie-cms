@@ -4,7 +4,8 @@
   "info": {
     "singularName": "map-entry-right-text",
     "pluralName": "map-entry-right-texts",
-    "displayName": "mapEntryRightText"
+    "displayName": "Sismographie: comment participer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
