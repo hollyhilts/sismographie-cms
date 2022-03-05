@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_texts",
+  "info": {
+    "singularName": "main-text",
+    "pluralName": "main-texts",
+    "displayName": "Ballado: Description",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}
