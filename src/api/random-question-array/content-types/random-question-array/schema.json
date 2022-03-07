@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "random_question_arrays",
+  "info": {
+    "singularName": "random-question-array",
+    "pluralName": "random-question-arrays",
+    "displayName": "Random Qs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "question": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    }
+  }
+}
