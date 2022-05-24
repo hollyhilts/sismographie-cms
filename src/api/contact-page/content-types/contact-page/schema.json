@@ -33,6 +33,14 @@
       },
       "type": "string",
       "required": true
+    },
+    "land_acknowledgment": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }
