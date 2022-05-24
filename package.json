@@ -18,9 +18,7 @@
     "pg-connection-string": "^2.5.0",
     "sqlite3": "5.0.2"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
+  "author": "A Strapi developer",
   "strapi": {
     "uuid": "4fe7b801-1afd-4deb-af37-eec865a40ee0"
   },
@@ -28,5 +26,7 @@
     "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "git@github.com:hollyhilts/sismographie-cms.git"
 }
