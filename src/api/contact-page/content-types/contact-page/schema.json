@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "content": {
+    "contactText": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -34,13 +34,29 @@
       "type": "string",
       "required": true
     },
-    "land_acknowledgment": {
+    "acknowledgementText": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
       "type": "richtext"
+    },
+    "address": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    },
+    "tel": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
